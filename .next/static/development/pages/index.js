@@ -9766,7 +9766,7 @@ module.exports = function(module) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Blog; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_BasicLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/BasicLayout */ "./components/BasicLayout.js");
@@ -9785,7 +9785,8 @@ var PostLink = function PostLink(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: '/post?title=${props.title}',
+    as: "/p/".concat(props.id),
+    href: "/post?title=".concat(props.title),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -9800,7 +9801,7 @@ var PostLink = function PostLink(props) {
   }, props.title)));
 };
 
-function Index() {
+function Blog() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BasicLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
@@ -9820,6 +9821,7 @@ function Index() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
+    id: "hello-nextjs",
     title: "Hello Next.js",
     __source: {
       fileName: _jsxFileName,
@@ -9827,6 +9829,7 @@ function Index() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
+    id: "learn-nextjs",
     title: "Learn Next.js is awesome",
     __source: {
       fileName: _jsxFileName,
@@ -9834,6 +9837,7 @@ function Index() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
+    id: "deploy-nextjs",
     title: "Deploy apps with Zeit",
     __source: {
       fileName: _jsxFileName,

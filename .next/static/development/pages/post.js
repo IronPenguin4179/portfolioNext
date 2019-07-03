@@ -9817,7 +9817,7 @@ var Page = function Page(props) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fpost&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FIron_Penguin%2FDocuments%2FPortfolioNext%2Fpages%2Fpost.js ***!
   \****************************************************************************************************************************************************/
@@ -9840,5 +9840,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=post.js.map
